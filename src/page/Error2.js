@@ -5,7 +5,11 @@ import Header from '../components/Header';
 export default function Error2() {
   return (
         <>
+            
+            
+            <div class="brk-header-mobile"></div>
             <Header />
+            <div class="brk-info-menu"></div>
             <div className="main-wrapper">
                 <main className="main-container">
                     <section className="brk-backgrounds full-screen d-flex flex-column align-items-center justify-content-center" data-brk-library="component__backgrounds_css,component__backgrounds_js">
