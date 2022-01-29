@@ -675,10 +675,10 @@ export default function Header() {
                             <a href="login.html">Errors <i className="fas fa-angle-right" /></a>
                             <ul className="brk-nav__sub-menu brk-nav-drop-down font__family-montserrat">
                                 <li className="dd-effect">
-                                <a href="404.html">Page not found - 404</a>
+                                <NavLink to="/error">Page not found - 404</NavLink>
                                 </li>
                                 <li className="dd-effect">
-                                <a href="403.html">Access denied - 403</a>
+                                <NavLink to="/error2">Access denied - 403</NavLink>
                                 </li>
                             </ul>
                             </li>

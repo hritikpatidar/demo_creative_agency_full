@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 export default function Error() {
@@ -124,6 +125,7 @@ export default function Error() {
                 </section>
                 </main>
             </div>
+            <Footer />
         </div>
 
     );
